@@ -36,7 +36,7 @@ const randomColor = () => {
 }
 
 const foodImage = new Image()
-foodImage.src = '../assets/img/apple.png'
+foodImage.src = '../assets/img/cap.png'
 
 const food = {
     x: randomPosition(),
@@ -57,7 +57,7 @@ const drawFood = () => {
 }
 
 const drawSnake = () => {
-    ctx.fillStyle = "#ddd"
+    ctx.fillStyle = "#0fdb07ff"
 
     snake.forEach((position, index) => {
         if (index == snake.length - 1) {
